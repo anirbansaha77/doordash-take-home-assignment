@@ -1,0 +1,36 @@
+.formcontainer {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    min-width: 100vw;
+}
+
+.parent {
+    min-height: 100vh;
+    display: table;
+}
+
+.usernameInput {
+    width: 100%;
+    font-size: 18px;
+    border: none;
+}
+
+.inputButton {
+    width: 440px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    min-height: 15px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+
+.inputContainer {
+    width: 400px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    min-height: 15px;
+    border: 1px solid lightgray;
+}

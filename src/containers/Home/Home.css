@@ -1,0 +1,28 @@
+.chatContainer {
+    min-width: 100vw;
+    min-height:  100vh;
+    display: table;
+}
+
+.leftContainer {
+    min-width: 20vw;
+    min-height:  100vh;
+    display: table-cell;
+    background-color: red;
+    color: white;
+}
+
+.rightContainer {
+    min-width: 80vw;
+    min-height:  100vh;
+    display: table-cell;
+}
+
+.chatHeaderContainer {
+    height: 16vh;
+}
+
+.chatBodyContainer {
+    height: 86vh;
+    /* border: 1px solid black; */
+}

@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.content {
+  width:  80vw;
+  margin: 0 auto;
+}
+.stickyPanel {
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    right: 10px;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+.padding10 {
+  padding: 10px;
+}
+
+.noLine {
+  text-decoration: 'none !important'
+}
+
+.title {
+  width: 70vw;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.stickyPanelFont {
+  color: black;
+  font-weight: bold;
+}
+
+.skillContent {
+  background-color: aliceblue;
+  padding: 10px 0;
+}
+.footerContainer {
+  width: 100vw;
+}
+
+.footerContent {
+  max-width: 80vw;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+.offlineMsg {
+  width: 60vw;
+  /* text-shadow: 2px 2px lightgrey; */
+  color: white;
+  background-color: slategray;
+  /* filter: grayscale(0) saturate(1); */
+  margin: 20px auto;
+  font-size: 16px;
+  padding: 20px 0;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.navActive {
+  color: green;
+  font-size: 14vw;
+  font-weight: bold;
+}
+
+.MenuConatiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.MenuItem {
+  padding: 5px 10px;
+  background-color: slategray;
+  border: 1px solid lightsteelblue;
+  border-radius: 5px;
+}
+.Active {
+  background-color: black;
+}
+.inActive {
+  background-color: slategray;
+}
+
+.MenuItem:hover {
+  background-color: black;
+}
+
+.MenuLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
